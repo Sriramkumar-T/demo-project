@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>registeration page </title>
+    <link rel="stylesheet" href="task.css">
+</head>
+<body>
+  <h1>registration form</h1>
+  
+  <div class="register">
+   <table><tr>
+ <th><label>first name:<label></th>   
+<td><input type="text" name="fname" id="fname" ></td> <br>
+
+
+    
+
+<th><label>last name:</label></th>
+<td><input type="text" name="lname" id="lname"><br></td></tr>
+
+<td><label>mail id:</label></td>
+<td><input type="text" name="mailid" id="textInput"><br></td></tr>
+
+
+
+
+<tr>
+<th><label>password:</label></th>
+<th><input type="text" name="password1" id="text"> <br></th>
+<td><input type="checkbox" onclick="myFunction()">hide Password<br></td>
+
+
+<th><label>confirm password:</label></th>
+<th><input type="text" name="password" id="text2"  ><br></th>
+<td><input type="checkbox" onclick="confirmpassword()">hide password<br></td></tr>
+
+<tr>
+
+<th><label>dob:</label></th>
+<td><input type="text" name="dob" id="birth"><br></td>
+</tr>
+<tr>
+<th><label>mobile number:</label></th>
+<td><input type="text" name="mobilenum" id="num"><br></td>
+</tr>
+
+
+<br>
+<br>
+<tr>
+  <th><input type="checkbox" id="check"><th>
+  <p id="text" >the above info is verified and validated</p></tr>
+
+</table> 
+
+<br>
+<br>
+
+
+<select id="selection">
+<option id="choice">gender</option>
+<option id="male" >male</option>
+<option  id="female">female</option>
+<option id="trans">other</option>
+</select>
+
+
+<br>
+<br>
+<button  onclick="submit()">submit</button>
+<form action="submit.html">
+  
+</form>
+</div>
+
+
+<script src="script.js"></script>
+  
+</body>
+</html>
