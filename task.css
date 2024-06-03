@@ -1,0 +1,31 @@
+.register{
+    position:center;
+    display:flex;
+  
+    margin-left: 20%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: fuchsia;
+    border: none;
+    
+   
+}
+body{
+    
+    background-image: url(images1.jpeg);
+    background-repeat:no-repeat;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+   
+    background-size:cover;
+   
+
+}
+h1{
+    color: red;
+}
