@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>registeration page </title>
+    <link href="styles/task.css" rel="stylesheet">
+</head>
+<body>
+    <h1>registration form</h1>
+    <div class="register">
+        <table>
+            <tr>
+                <th><label>first name:</label></th>
+                <td><input id="fname" name="fname" type="text"></td>
+                <th><label>last name:</label></th>
+                <td><input id="lname" name="lname" type="text"></td>
+            </tr>
+            <tr>
+                <td><label>mail id:</label></td>
+                <td><input id="textInput" name="mailid" type="text"></td>
+            </tr>
+            <tr>
+                <th><label>password:</label></th>
+                <th><input id="text" name="password1" type="text"> <br></th>
+                <td><input onclick="myFunction()" type="checkbox">hide Password<br></td>
+                <th><label>confirm password:</label></th>
+                <th><input id="text2" name="password" type="text"><br></th>
+                <td><input onclick="confirmpassword()" type="checkbox">hide password<br></td>
+            </tr>
+            <tr>
+                <th><label>dob:</label></th>
+                <td><input id="birth" name="dob" type="text"></td>
+            </tr>
+            <tr>
+                <th><label>mobile number:</label></th>
+                <td><input id="num" name="mobilenum" type="text"><br></td>
+            </tr>
+            <tr>
+                <th><input id="check" type="checkbox"></th>
+                <th>
+                    <p>the above info is verified and validated</p>
+                </th>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <label>Gender:</label>
+        <input id="male" type="checkbox">
+        <input id="female" type="checkbox">female
+        <br>
+        <br>
+        <button onclick="submit()">submit</button>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
