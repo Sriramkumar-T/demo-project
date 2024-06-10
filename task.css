@@ -1,0 +1,98 @@
+.register{
+
+    position:absolute;
+    display:block;
+  
+    margin-left: 20%;
+    
+    margin-bottom: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: fuchsia;
+    border: none;
+    width: 50%;
+    height: 50%;
+
+    
+   
+}
+
+.register table,tr,td{
+    padding: 5px;
+}
+.popupbox{
+    color: red;
+    position:fixed;
+    background-color: rgb(14, 15, 15);
+    width: 60%;
+    opacity: 90%;
+    display:none;
+   
+
+    
+}
+.popupbox button{
+    border-radius: 10%;
+    width: 10%;
+    text-align: center;
+    position: right;
+    
+
+}
+.message{
+    display:block;
+}
+.message1{
+    display:block;
+}
+.message2{
+    display:block;
+}
+.message3{
+    display:block;
+}.message4{
+    display:block;
+}.message5{
+    display:block;
+}
+.message6{
+    
+    display:block;
+}.message7{
+    
+    display:block;
+}.message8{
+    
+    display:block;
+}.message9{
+    
+    display:block;
+
+}
+
+
+    
+
+
+
+body{
+    
+    background-image: url(images1.jpeg);
+    
+    background-repeat:no-repeat;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+   
+    background-size:cover;
+    background-attachment:fixed;
+   
+
+}
+h1{
+    color: red;
+}

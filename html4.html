@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>registeration page </title>
+    <link rel="stylesheet" href="task.css">
+</head>
+<body>
+  <h1>Registration form</h1>
+  <div class = "register">
+    <div class = "popupbox">
+      
+       <p class = "message"> * enter a valid firstname *</p>
+       <p class = "message1">* enter a last name *</p>
+       <p class = "message2">* enter a valid email id *</p>
+       <p class = "message3">* password must be atleast 8 character *</p>
+       <p class = "message4">* password mismatch *</p>
+       <p class = "message5">* enter a valid date *</p>
+       <p class = "message6">* enter a  valid number *</p>
+       <p class = "message7">* plese verify the check box *</p>
+       <p class = "message8">* plese select gender *</p>
+       <p class = "message9">thank you for register </p>
+      <button id = "btn1">ok</button>
+</div>
+    <table>
+      <tr>
+        <th><label>first name:</label></th>   
+        <th><input type="text" name="fname" id="fname" ></th> 
+        <th><label>last name:</label></th>
+        <th><input type="text" name="lname" id="lname"></th>
+        <th><label>mail id:</label></th>
+        <th><input type="text" name="mailid" id="textInput"></th>
+      </tr>
+      <tr>
+        <th><label>password:</label></th>
+        <td><input type="text" name="password1" id="password1"></td>
+        <td><input type="checkbox" onclick="mockpassword()">hide Password</td>
+        <th><label>confirm password:</label></th>
+        <td><input type="text" name="password" id="text2"></td>
+        <td><input type="checkbox" onclick="mockconfirmpassword()">hide password</td>
+      </tr>
+      <tr>
+        <th><label>dob:</label></th>
+        <td><input type="text" name="dob" id="birth"></td>
+        <th><label>mobile number:</label></th>
+        <td><input type="text" name="mobilenum" id="num"></td> 
+        <th><input type="checkbox" id="check"></th>
+        <td><p>the above info is verified and validated</p></td>
+       </tr>
+    </table> 
+    <label>Gender:</label>
+    <input type ="radio" id="male" name="Gender">
+    <label>male </label>
+    <input type = "radio" id="female" name="Gender">
+    <label>female</label>
+    <button id="btn"  onclick="validation()" >validate</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
