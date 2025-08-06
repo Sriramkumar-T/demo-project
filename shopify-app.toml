@@ -1,0 +1,23 @@
+# Learn more about configuring your Shopify CLI at:
+# https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "carrier-integration-app"
+client_id = "your_client_id_here"
+application_url = "https://your-app-domain.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_shipping,read_shipping,write_orders,read_orders"
+
+[auth]
+redirect_urls = [
+  "https://your-app-domain.com/auth/callback",
+  "http://localhost:3000/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
